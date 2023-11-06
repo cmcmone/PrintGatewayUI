@@ -4,13 +4,12 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    screens: {
-      lg: { max: "1023px" },
-      sm: { max: "767px"}
-    },
     extend: {
       colors: {
-        molina: "#009ea0"
+        molina: "#009ea0",
+        light: "#f8f9fa",
+        ground: "#edf1f7",
+        text: "##222b45",
       }
     },
   },
